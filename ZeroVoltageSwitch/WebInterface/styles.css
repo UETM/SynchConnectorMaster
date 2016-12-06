@@ -1,0 +1,121 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000000;
+    background: -webkit-gradient(linear, left center, right center, from(#000000),color-stop(100%, #4276FF));
+    background: -webkit-linear-gradient(left,#000000,#4276FF 100%);
+    background: linear-gradient(to right,#000000,#4276FF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000, endColorstr=#FF4276FF, GradientType=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF4276FF', GradientType=1)";
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1024px;
+    position: fixed;
+    top: 0px;
+    height: 24px;
+    background-color: #00BEFF;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.content {
+    width: 1024px;
+    height: 100%;
+    background-color: #00BEFF;
+    margin: 34px auto;
+}
+
+.tab {
+    background-color: #00AAFF;
+    width: 178px;
+    height: 24px;
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+.active-tab {
+    background-color: #00BEFF;
+    width: 178px;
+    height: 24px;
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+.logout {
+    background-color: red;
+    width: 178px;
+    height: 24px;
+    float: right;
+    line-height: 24px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    margin: 0;
+    border-collapse:collapse;
+}
+
+tr {
+    border: none;
+}
+
+td {
+   
+    color:#444;
+    border-bottom:1px dotted #999;
+    text-shadow:1px 1px 1px #fff;
+    text-align:center;
+}
+
+td:nth-child(even) {
+    background-color:#f0f0f0;
+}
+
+td:nth-child(odd) {
+    background-color:whitesmoke;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align:center;
+    border: none;
+}
+
+th {
+    padding:20px 10px 20px 10px;
+    color:#fff;
+    font-size: 26px;
+    background-color:#222;
+    font-weight:normal;
+    border:none;
+    -moz-box-shadow:0px -1px 4px #000;
+    -webkit-box-shadow:0px -1px 4px #000;
+    box-shadow:0px -1px 4px #000;
+    text-shadow:1px 1px 1px #000;
+}
+
+img {
+    width:32px;
+    height:32px;
+}

@@ -1,0 +1,6 @@
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\bin\WebInterface.dll.config
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\bin\WebInterface.dll
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\bin\WebInterface.pdb
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\obj\Debug\WebInterface.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\obj\Debug\WebInterface.dll
+C:\Users\Александр\Desktop\ZeroVoltageSwitch\WebInterface\obj\Debug\WebInterface.pdb
