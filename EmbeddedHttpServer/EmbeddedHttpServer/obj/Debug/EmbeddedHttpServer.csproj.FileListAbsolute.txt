@@ -1,0 +1,6 @@
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\bin\Debug\EmbeddedHttpServer.exe.config
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\bin\Debug\EmbeddedHttpServer.exe
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\bin\Debug\EmbeddedHttpServer.pdb
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\obj\Debug\EmbeddedHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\obj\Debug\EmbeddedHttpServer.exe
+C:\Users\Александр\Desktop\EmbeddedHttpServer\EmbeddedHttpServer\obj\Debug\EmbeddedHttpServer.pdb
