@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F207IG -DSTM32F207xx -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\BusinessLogic\managers -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib\stm32_lib_periph -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib\stm32_lib_periph\include -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib\cmsis -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib\cmsis_boot -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\lib\cmsis_boot\Include -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\BusinessLogic\helpers\peripherial -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\BusinessLogic\helpers -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering\BusinessLogic -IE:\uetm\commutator\newWave\SynchConnectorMaster\MasterDataGathering">
+      <target file="stm32f2xx_i2c.o" lastModified="15920ac7a3d">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_i2c.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_spi.o" lastModified="15920ac7746">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_spi.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="misc.o" lastModified="15920acaced">
+         <source file="..\..\..\lib\stm32_lib_periph\source\misc.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_wwdg.o" lastModified="15920ac7cdc">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_wwdg.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_hash_sha1.o" lastModified="15920ac9172">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_hash_sha1.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_dcmi.o" lastModified="15920ac9021">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_dcmi.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_hash_md5.o" lastModified="15920acb00d">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_hash_md5.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="ExecutingControllersManager.o" lastModified="15920ac7310">
+         <source file="..\..\..\BusinessLogic\managers\ExecutingControllersManager.c" lastModified="15920abb7ab"/>
+      </target>
+      <target file="stm32f2xx_sdio.o" lastModified="15920ac6ee9">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_sdio.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_cryp_tdes.o" lastModified="15920ac81a2">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_cryp_tdes.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_tim.o" lastModified="15920ac8c07">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_tim.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_hash.o" lastModified="15920ac7488">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_hash.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="i2cHelper.o" lastModified="15920aca2d7">
+         <source file="..\..\..\BusinessLogic\helpers\peripherial\i2cHelper.c" lastModified="1591faf3eb6"/>
+      </target>
+      <target file="system_stm32f2xx.o" lastModified="15920aca548">
+         <source file="..\..\..\lib\system_stm32f2xx.c" lastModified="1543d0d9713"/>
+      </target>
+      <target file="stm32f2xx_cryp_aes.o" lastModified="15920ac9483">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_cryp_aes.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_usart.o" lastModified="15920ac71ba">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_usart.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="startup_stm32f207xx.o" lastModified="15920ac7538">
+         <source file="..\..\..\lib\cmsis_boot\startup_stm32f207xx.S" lastModified="1591f3967eb"/>
+      </target>
+      <target file="stm32f2xx_fsmc.o" lastModified="15920ac9dae">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_fsmc.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_rtc.o" lastModified="15920ac84bd">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_rtc.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_rcc.o" lastModified="15920aca78c">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_rcc.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_dac.o" lastModified="15920ac9f26">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_dac.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_can.o" lastModified="15920ac99c0">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_can.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_pwr.o" lastModified="15920ac96e3">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_pwr.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_rng.o" lastModified="15920ac7ba8">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_rng.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_adc.o" lastModified="15920acaa2c">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_adc.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_flash.o" lastModified="15920ac8030">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_flash.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_cryp.o" lastModified="15920ac9ba4">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_cryp.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_dbgmcu.o" lastModified="15920ac8e89">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_dbgmcu.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_cryp_des.o" lastModified="15920acae98">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_cryp_des.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_syscfg.o" lastModified="15920ac92d9">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_syscfg.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_dma.o" lastModified="15920ac6b4b">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_dma.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="main.o" lastModified="15920ac8d2e">
+         <source file="..\..\..\main.c" lastModified="15920ac40ab"/>
+      </target>
+      <target file="stm32f2xx_iwdg.o" lastModified="15920ac85dc">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_iwdg.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_exti.o" lastModified="15920acaba8">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_exti.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_gpio.o" lastModified="15920aca0e3">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_gpio.c" lastModified="14a57cfa628"/>
+      </target>
+      <target file="stm32f2xx_crc.o" lastModified="15920aca3fb">
+         <source file="..\..\..\lib\stm32_lib_periph\source\stm32f2xx_crc.c" lastModified="14a57cfa628"/>
+      </target>
+   </processor>
+</history>

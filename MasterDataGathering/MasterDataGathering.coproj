@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="MasterDataGathering">
+  <Target name="MasterDataGathering" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="827" chipName="STM32F207IG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+          <Includepath path="lib/cmsis"/>
+          <Includepath path="lib/cmsis_boot/include"/>
+          <Includepath path="lib/stm32_lib_periph/include"/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F207IG"/>
+          <Define name="STM32F207xx"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/masterdatagathering/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="MasterDataGathering"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="JTAG"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value="C:\Program Files (x86)\SEGGER\JLink_V610g\JLinkGDBServerCL.exe"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F2xx_1024.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="2085" name="STM32Cube_FW_F2_V1.1.0" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_pwr.h" path="lib/stm32_lib_periph/include/stm32f2xx_pwr.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_dma.h" path="lib/stm32_lib_periph/include/stm32f2xx_dma.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_hash_sha1.c" path="lib/stm32_lib_periph/source/stm32f2xx_hash_sha1.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_dcmi.h" path="lib/stm32_lib_periph/include/stm32f2xx_dcmi.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_rtc.c" path="lib/stm32_lib_periph/source/stm32f2xx_rtc.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_gpio.c" path="lib/stm32_lib_periph/source/stm32f2xx_gpio.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_dcmi.c" path="lib/stm32_lib_periph/source/stm32f2xx_dcmi.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_dbgmcu.c" path="lib/stm32_lib_periph/source/stm32f2xx_dbgmcu.c" type="1"/>
+    <File name="lib/cmsis_boot/include" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_syscfg.h" path="lib/stm32_lib_periph/include/stm32f2xx_syscfg.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include" path="" type="2"/>
+    <File name="BusinessLogic" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_iwdg.c" path="lib/stm32_lib_periph/source/stm32f2xx_iwdg.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_wwdg.c" path="lib/stm32_lib_periph/source/stm32f2xx_wwdg.c" type="1"/>
+    <File name="BusinessLogic/helpers/peripherial" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_adc.h" path="lib/stm32_lib_periph/include/stm32f2xx_adc.h" type="1"/>
+    <File name="lib/system_stm32f2xx.c" path="lib/system_stm32f2xx.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_cryp.h" path="lib/stm32_lib_periph/include/stm32f2xx_cryp.h" type="1"/>
+    <File name="BusinessLogic/data" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_dac.c" path="lib/stm32_lib_periph/source/stm32f2xx_dac.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_fsmc.h" path="lib/stm32_lib_periph/include/stm32f2xx_fsmc.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_dbgmcu.h" path="lib/stm32_lib_periph/include/stm32f2xx_dbgmcu.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_usart.h" path="lib/stm32_lib_periph/include/stm32f2xx_usart.h" type="1"/>
+    <File name="lib/cmsis/core_cmFunc.h" path="lib/cmsis/core_cmFunc.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_fsmc.c" path="lib/stm32_lib_periph/source/stm32f2xx_fsmc.c" type="1"/>
+    <File name="BusinessLogic/helpers" path="" type="2"/>
+    <File name="BusinessLogic/managers/ExecutingControllersManager.c" path="BusinessLogic/managers/ExecutingControllersManager.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/misc.c" path="lib/stm32_lib_periph/source/misc.c" type="1"/>
+    <File name="lib/cmsis_boot" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_spi.c" path="lib/stm32_lib_periph/source/stm32f2xx_spi.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_tim.c" path="lib/stm32_lib_periph/source/stm32f2xx_tim.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_iwdg.h" path="lib/stm32_lib_periph/include/stm32f2xx_iwdg.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_adc.c" path="lib/stm32_lib_periph/source/stm32f2xx_adc.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_spi.h" path="lib/stm32_lib_periph/include/stm32f2xx_spi.h" type="1"/>
+    <File name="BusinessLogic/managers" path="" type="2"/>
+    <File name="lib/cmsis/core_cm3.h" path="lib/cmsis/core_cm3.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_exti.c" path="lib/stm32_lib_periph/source/stm32f2xx_exti.c" type="1"/>
+    <File name="lib/cmsis" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_sdio.h" path="lib/stm32_lib_periph/include/stm32f2xx_sdio.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_rtc.h" path="lib/stm32_lib_periph/include/stm32f2xx_rtc.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_rcc.h" path="lib/stm32_lib_periph/include/stm32f2xx_rcc.h" type="1"/>
+    <File name="lib" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_rng.h" path="lib/stm32_lib_periph/include/stm32f2xx_rng.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_hash.c" path="lib/stm32_lib_periph/source/stm32f2xx_hash.c" type="1"/>
+    <File name="BusinessLogic/helpers/peripherial/i2cHelper.c" path="BusinessLogic/helpers/peripherial/i2cHelper.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_cryp_aes.c" path="lib/stm32_lib_periph/source/stm32f2xx_cryp_aes.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_flash.h" path="lib/stm32_lib_periph/include/stm32f2xx_flash.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_i2c.h" path="lib/stm32_lib_periph/include/stm32f2xx_i2c.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_hash_md5.c" path="lib/stm32_lib_periph/source/stm32f2xx_hash_md5.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_flash.c" path="lib/stm32_lib_periph/source/stm32f2xx_flash.c" type="1"/>
+    <File name="lib/cmsis_boot/include/stm32f2xx.h" path="lib/cmsis_boot/Include/stm32f2xx.h" type="1"/>
+    <File name="lib/cmsis_boot/include/stm32f207xx.h" path="lib/cmsis_boot/Include/stm32f207xx.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_crc.h" path="lib/stm32_lib_periph/include/stm32f2xx_crc.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_i2c.c" path="lib/stm32_lib_periph/source/stm32f2xx_i2c.c" type="1"/>
+    <File name="BusinessLogic/managers/ExecutingControllersManager.h" path="BusinessLogic/managers/ExecutingControllersManager.h" type="1"/>
+    <File name="lib/cmsis_boot/include/system_stm32f2xx.h" path="lib/cmsis_boot/Include/system_stm32f2xx.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_cryp_des.c" path="lib/stm32_lib_periph/source/stm32f2xx_cryp_des.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_crc.c" path="lib/stm32_lib_periph/source/stm32f2xx_crc.c" type="1"/>
+    <File name="lib/cmsis_boot/include/stm32f215xx.h" path="lib/cmsis_boot/Include/stm32f215xx.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_dac.h" path="lib/stm32_lib_periph/include/stm32f2xx_dac.h" type="1"/>
+    <File name="lib/cmsis/core_cmInstr.h" path="lib/cmsis/core_cmInstr.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_cryp_tdes.c" path="lib/stm32_lib_periph/source/stm32f2xx_cryp_tdes.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_usart.c" path="lib/stm32_lib_periph/source/stm32f2xx_usart.c" type="1"/>
+    <File name="BusinessLogic/helpers/peripherial/i2cHelper.h" path="BusinessLogic/helpers/peripherial/i2cHelper.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph" path="" type="2"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_can.h" path="lib/stm32_lib_periph/include/stm32f2xx_can.h" type="1"/>
+    <File name="lib/cmsis_boot/include/stm32f205xx.h" path="lib/cmsis_boot/Include/stm32f205xx.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_syscfg.c" path="lib/stm32_lib_periph/source/stm32f2xx_syscfg.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_cryp.c" path="lib/stm32_lib_periph/source/stm32f2xx_cryp.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_hash.h" path="lib/stm32_lib_periph/include/stm32f2xx_hash.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_exti.h" path="lib/stm32_lib_periph/include/stm32f2xx_exti.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_can.c" path="lib/stm32_lib_periph/source/stm32f2xx_can.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_pwr.c" path="lib/stm32_lib_periph/source/stm32f2xx_pwr.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source" path="" type="2"/>
+    <File name="lib/cmsis_boot/startup_stm32f207xx.S" path="lib/cmsis_boot/startup_stm32f207xx.S" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_sdio.c" path="lib/stm32_lib_periph/source/stm32f2xx_sdio.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_rcc.c" path="lib/stm32_lib_periph/source/stm32f2xx_rcc.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_dma.c" path="lib/stm32_lib_periph/source/stm32f2xx_dma.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_wwdg.h" path="lib/stm32_lib_periph/include/stm32f2xx_wwdg.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/misc.h" path="lib/stm32_lib_periph/include/misc.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_gpio.h" path="lib/stm32_lib_periph/include/stm32f2xx_gpio.h" type="1"/>
+    <File name="lib/stm32_stdlib_periph/source/stm32f2xx_rng.c" path="lib/stm32_lib_periph/source/stm32f2xx_rng.c" type="1"/>
+    <File name="lib/stm32_stdlib_periph/include/stm32f2xx_tim.h" path="lib/stm32_lib_periph/include/stm32f2xx_tim.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="lib/cmsis_boot/include/stm32f217xx.h" path="lib/cmsis_boot/Include/stm32f217xx.h" type="1"/>
+  </Files>
+</Project>

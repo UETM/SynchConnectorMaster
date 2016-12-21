@@ -1,0 +1,1974 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_dma.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_dma.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_dma.o
+ .text.DMA_DeInit
+                0x00000000      0x230 ..\obj\stm32f2xx_dma.o
+ .text.DMA_Init
+                0x00000000      0x39c ..\obj\stm32f2xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x6c ..\obj\stm32f2xx_dma.o
+ .text.DMA_Cmd  0x00000000      0x118 ..\obj\stm32f2xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000      0x118 ..\obj\stm32f2xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000      0x118 ..\obj\stm32f2xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000       0xe8 ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0xe4 ..\obj\stm32f2xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000      0x120 ..\obj\stm32f2xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000      0x118 ..\obj\stm32f2xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000      0x110 ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000       0xf8 ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000       0xf8 ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000       0xec ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000      0x30c ..\obj\stm32f2xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000      0x15c ..\obj\stm32f2xx_dma.o
+ .text.DMA_ITConfig
+                0x00000000      0x170 ..\obj\stm32f2xx_dma.o
+ .text.DMA_GetITStatus
+                0x00000000      0x374 ..\obj\stm32f2xx_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000      0x15c ..\obj\stm32f2xx_dma.o
+ .debug_info    0x00000000      0x82b ..\obj\stm32f2xx_dma.o
+ .debug_abbrev  0x00000000      0x187 ..\obj\stm32f2xx_dma.o
+ .debug_aranges
+                0x00000000       0xb0 ..\obj\stm32f2xx_dma.o
+ .debug_ranges  0x00000000       0xa0 ..\obj\stm32f2xx_dma.o
+ .debug_line    0x00000000     0x10c6 ..\obj\stm32f2xx_dma.o
+ .debug_str     0x00000000      0x576 ..\obj\stm32f2xx_dma.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_dma.o
+ .debug_frame   0x00000000      0x2cc ..\obj\stm32f2xx_dma.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_dma.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_sdio.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_sdio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_Init
+                0x00000000       0xfc ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_StructInit
+                0x00000000       0x38 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_ClockCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SetPowerState
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetPowerState
+                0x00000000       0x18 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SendCommand
+                0x00000000       0xd4 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_CmdStructInit
+                0x00000000       0x30 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetCommandResponse
+                0x00000000       0x18 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetResponse
+                0x00000000       0x48 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_DataConfig
+                0x00000000      0x148 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_DataStructInit
+                0x00000000       0x38 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetDataCounter
+                0x00000000       0x14 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_ReadData
+                0x00000000       0x18 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_WriteData
+                0x00000000       0x20 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetFIFOCount
+                0x00000000       0x14 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_StartSDIOReadWait
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_StopSDIOReadWait
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SetSDIOReadWaitMode
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SetSDIOOperation
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SendSDIOSuspendCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_CommandCompletionCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_CEATAITCmd
+                0x00000000       0x44 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_SendCEATACmd
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_DMACmd
+                0x00000000       0x34 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_ITConfig
+                0x00000000       0x70 ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetFlagStatus
+                0x00000000       0xec ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_ClearFlag
+                0x00000000       0x3c ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_GetITStatus
+                0x00000000       0xec ..\obj\stm32f2xx_sdio.o
+ .text.SDIO_ClearITPendingBit
+                0x00000000       0x3c ..\obj\stm32f2xx_sdio.o
+ .debug_info    0x00000000      0x915 ..\obj\stm32f2xx_sdio.o
+ .debug_abbrev  0x00000000      0x1a9 ..\obj\stm32f2xx_sdio.o
+ .debug_aranges
+                0x00000000      0x108 ..\obj\stm32f2xx_sdio.o
+ .debug_ranges  0x00000000       0xf8 ..\obj\stm32f2xx_sdio.o
+ .debug_line    0x00000000      0x9ed ..\obj\stm32f2xx_sdio.o
+ .debug_str     0x00000000      0x674 ..\obj\stm32f2xx_sdio.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_sdio.o
+ .debug_frame   0x00000000      0x43c ..\obj\stm32f2xx_sdio.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_sdio.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_usart.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_usart.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_usart.o
+ .text.USART_DeInit
+                0x00000000      0x110 ..\obj\stm32f2xx_usart.o
+ .text.USART_Init
+                0x00000000      0x2e8 ..\obj\stm32f2xx_usart.o
+ .text.USART_StructInit
+                0x00000000       0x38 ..\obj\stm32f2xx_usart.o
+ .text.USART_ClockInit
+                0x00000000      0x108 ..\obj\stm32f2xx_usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_usart.o
+ .text.USART_Cmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x8c ..\obj\stm32f2xx_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0xac ..\obj\stm32f2xx_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_SendData
+                0x00000000       0x8c ..\obj\stm32f2xx_usart.o
+ .text.USART_ReceiveData
+                0x00000000       0x70 ..\obj\stm32f2xx_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x9c ..\obj\stm32f2xx_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0xa4 ..\obj\stm32f2xx_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_usart.o
+ .text.USART_LINCmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_SendBreak
+                0x00000000       0x74 ..\obj\stm32f2xx_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x74 ..\obj\stm32f2xx_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x90 ..\obj\stm32f2xx_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x90 ..\obj\stm32f2xx_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_usart.o
+ .text.USART_DMACmd
+                0x00000000       0xd0 ..\obj\stm32f2xx_usart.o
+ .text.USART_ITConfig
+                0x00000000      0x184 ..\obj\stm32f2xx_usart.o
+ .text.USART_GetFlagStatus
+                0x00000000      0x108 ..\obj\stm32f2xx_usart.o
+ .text.USART_ClearFlag
+                0x00000000       0xc8 ..\obj\stm32f2xx_usart.o
+ .text.USART_GetITStatus
+                0x00000000      0x1b4 ..\obj\stm32f2xx_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0xf4 ..\obj\stm32f2xx_usart.o
+ .debug_info    0x00000000      0xb29 ..\obj\stm32f2xx_usart.o
+ .debug_abbrev  0x00000000      0x187 ..\obj\stm32f2xx_usart.o
+ .debug_aranges
+                0x00000000      0x100 ..\obj\stm32f2xx_usart.o
+ .debug_ranges  0x00000000       0xf0 ..\obj\stm32f2xx_usart.o
+ .debug_line    0x00000000      0xf16 ..\obj\stm32f2xx_usart.o
+ .debug_str     0x00000000      0x6c3 ..\obj\stm32f2xx_usart.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_usart.o
+ .debug_frame   0x00000000      0x430 ..\obj\stm32f2xx_usart.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_usart.o
+ .text          0x00000000        0x0 ..\obj\ExecutingControllersManager.o
+ .data          0x00000000        0x0 ..\obj\ExecutingControllersManager.o
+ .bss           0x00000000        0x0 ..\obj\ExecutingControllersManager.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_hash.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_hash.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_hash.o
+ .text.HASH_DeInit
+                0x00000000       0x18 ..\obj\stm32f2xx_hash.o
+ .text.HASH_Init
+                0x00000000       0xec ..\obj\stm32f2xx_hash.o
+ .text.HASH_StructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_hash.o
+ .text.HASH_Reset
+                0x00000000       0x1c ..\obj\stm32f2xx_hash.o
+ .text.HASH_SetLastWordValidBitsNbr
+                0x00000000       0x40 ..\obj\stm32f2xx_hash.o
+ .text.HASH_DataIn
+                0x00000000       0x1c ..\obj\stm32f2xx_hash.o
+ .text.HASH_GetInFIFOWordsNbr
+                0x00000000       0x1c ..\obj\stm32f2xx_hash.o
+ .text.HASH_GetDigest
+                0x00000000       0x40 ..\obj\stm32f2xx_hash.o
+ .text.HASH_StartDigest
+                0x00000000       0x1c ..\obj\stm32f2xx_hash.o
+ .text.HASH_SaveContext
+                0x00000000       0x5c ..\obj\stm32f2xx_hash.o
+ .text.HASH_RestoreContext
+                0x00000000       0x68 ..\obj\stm32f2xx_hash.o
+ .text.HASH_DMACmd
+                0x00000000       0x50 ..\obj\stm32f2xx_hash.o
+ .text.HASH_ITConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_hash.o
+ .text.HASH_GetFlagStatus
+                0x00000000       0x78 ..\obj\stm32f2xx_hash.o
+ .text.HASH_ClearFlag
+                0x00000000       0x38 ..\obj\stm32f2xx_hash.o
+ .text.HASH_GetITStatus
+                0x00000000       0x58 ..\obj\stm32f2xx_hash.o
+ .text.HASH_ClearITPendingBit
+                0x00000000       0x3c ..\obj\stm32f2xx_hash.o
+ .debug_info    0x00000000      0x5ce ..\obj\stm32f2xx_hash.o
+ .debug_abbrev  0x00000000      0x215 ..\obj\stm32f2xx_hash.o
+ .debug_aranges
+                0x00000000       0xa0 ..\obj\stm32f2xx_hash.o
+ .debug_ranges  0x00000000       0x90 ..\obj\stm32f2xx_hash.o
+ .debug_line    0x00000000      0x588 ..\obj\stm32f2xx_hash.o
+ .debug_str     0x00000000      0x466 ..\obj\stm32f2xx_hash.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_hash.o
+ .debug_frame   0x00000000      0x274 ..\obj\stm32f2xx_hash.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_hash.o
+ .text          0x00000000       0x14 ..\obj\startup_stm32f207xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f207xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f207xx.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_spi.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_spi.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_DeInit
+                0x00000000       0x98 ..\obj\stm32f2xx_spi.o
+ .text.SPI_Init
+                0x00000000      0x1f4 ..\obj\stm32f2xx_spi.o
+ .text.I2S_Init
+                0x00000000      0x2cc ..\obj\stm32f2xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x48 ..\obj\stm32f2xx_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x38 ..\obj\stm32f2xx_spi.o
+ .text.SPI_Cmd  0x00000000       0x84 ..\obj\stm32f2xx_spi.o
+ .text.I2S_Cmd  0x00000000       0x78 ..\obj\stm32f2xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x80 ..\obj\stm32f2xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x90 ..\obj\stm32f2xx_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000       0x48 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_SendData
+                0x00000000       0x4c ..\obj\stm32f2xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x84 ..\obj\stm32f2xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000       0x50 ..\obj\stm32f2xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000       0x78 ..\obj\stm32f2xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000       0x48 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0xac ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0xc4 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000       0xa8 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000       0x60 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0xd8 ..\obj\stm32f2xx_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x74 ..\obj\stm32f2xx_spi.o
+ .debug_info    0x00000000      0xbd6 ..\obj\stm32f2xx_spi.o
+ .debug_abbrev  0x00000000      0x1a8 ..\obj\stm32f2xx_spi.o
+ .debug_aranges
+                0x00000000       0xd8 ..\obj\stm32f2xx_spi.o
+ .debug_ranges  0x00000000       0xc8 ..\obj\stm32f2xx_spi.o
+ .debug_line    0x00000000      0xbd0 ..\obj\stm32f2xx_spi.o
+ .debug_str     0x00000000      0x6a1 ..\obj\stm32f2xx_spi.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_spi.o
+ .debug_frame   0x00000000      0x37c ..\obj\stm32f2xx_spi.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_spi.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_i2c.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_i2c.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x3c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_Send7bitAddress
+                0x00000000       0x80 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x70 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x88 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_SendData
+                0x00000000       0x4c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000       0x48 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000       0x4c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x84 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x9c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0xac ..\obj\stm32f2xx_i2c.o
+ .text.I2C_CheckEvent
+                0x00000000      0x174 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x70 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000      0x17c ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000       0x78 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000      0x138 ..\obj\stm32f2xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000       0x78 ..\obj\stm32f2xx_i2c.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_rng.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_rng.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_rng.o
+ .text.RNG_DeInit
+                0x00000000       0x18 ..\obj\stm32f2xx_rng.o
+ .text.RNG_Cmd  0x00000000       0x50 ..\obj\stm32f2xx_rng.o
+ .text.RNG_GetRandomNumber
+                0x00000000       0x14 ..\obj\stm32f2xx_rng.o
+ .text.RNG_ITConfig
+                0x00000000       0x50 ..\obj\stm32f2xx_rng.o
+ .text.RNG_GetFlagStatus
+                0x00000000       0x50 ..\obj\stm32f2xx_rng.o
+ .text.RNG_ClearFlag
+                0x00000000       0x38 ..\obj\stm32f2xx_rng.o
+ .text.RNG_GetITStatus
+                0x00000000       0x4c ..\obj\stm32f2xx_rng.o
+ .text.RNG_ClearITPendingBit
+                0x00000000       0x3c ..\obj\stm32f2xx_rng.o
+ .debug_info    0x00000000      0x2d5 ..\obj\stm32f2xx_rng.o
+ .debug_abbrev  0x00000000      0x15c ..\obj\stm32f2xx_rng.o
+ .debug_aranges
+                0x00000000       0x58 ..\obj\stm32f2xx_rng.o
+ .debug_ranges  0x00000000       0x48 ..\obj\stm32f2xx_rng.o
+ .debug_line    0x00000000      0x36d ..\obj\stm32f2xx_rng.o
+ .debug_str     0x00000000      0x2ad ..\obj\stm32f2xx_rng.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_rng.o
+ .debug_frame   0x00000000      0x124 ..\obj\stm32f2xx_rng.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_rng.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_wwdg.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_wwdg.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_SetPrescaler
+                0x00000000       0x58 ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_SetWindowValue
+                0x00000000       0x48 ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_EnableIT
+                0x00000000       0x18 ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_SetCounter
+                0x00000000       0x3c ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_Enable
+                0x00000000       0x3c ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_GetFlagStatus
+                0x00000000       0x2c ..\obj\stm32f2xx_wwdg.o
+ .text.WWDG_ClearFlag
+                0x00000000       0x18 ..\obj\stm32f2xx_wwdg.o
+ .debug_info    0x00000000      0x280 ..\obj\stm32f2xx_wwdg.o
+ .debug_abbrev  0x00000000      0x158 ..\obj\stm32f2xx_wwdg.o
+ .debug_aranges
+                0x00000000       0x58 ..\obj\stm32f2xx_wwdg.o
+ .debug_ranges  0x00000000       0x48 ..\obj\stm32f2xx_wwdg.o
+ .debug_line    0x00000000      0x32b ..\obj\stm32f2xx_wwdg.o
+ .debug_str     0x00000000      0x2ab ..\obj\stm32f2xx_wwdg.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_wwdg.o
+ .debug_frame   0x00000000      0x124 ..\obj\stm32f2xx_wwdg.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_wwdg.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_flash.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_flash.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_SetLatency
+                0x00000000       0x58 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_PrefetchBufferCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_InstructionCacheCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_DataCacheCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_InstructionCacheReset
+                0x00000000       0x1c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_DataCacheReset
+                0x00000000       0x1c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_Unlock
+                0x00000000       0x2c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_Lock
+                0x00000000       0x1c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_EraseSector
+                0x00000000      0x138 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_EraseAllSectors
+                0x00000000       0xc4 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ProgramDoubleWord
+                0x00000000       0xa8 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ProgramWord
+                0x00000000       0xa0 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x00000000       0xa4 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ProgramByte
+                0x00000000       0xa0 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_Unlock
+                0x00000000       0x30 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_Lock
+                0x00000000       0x1c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_WRPConfig
+                0x00000000       0x98 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_RDPConfig
+                0x00000000       0x48 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_UserConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_BORConfig
+                0x00000000       0x5c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_Launch
+                0x00000000       0x30 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x18 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_GetWRP
+                0x00000000       0x18 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x30 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_OB_GetBOR
+                0x00000000       0x1c ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ITConfig
+                0x00000000       0x70 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_GetFlagStatus
+                0x00000000       0x68 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_ClearFlag
+                0x00000000       0x38 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_GetStatus
+                0x00000000       0x68 ..\obj\stm32f2xx_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x30 ..\obj\stm32f2xx_flash.o
+ .debug_info    0x00000000      0x804 ..\obj\stm32f2xx_flash.o
+ .debug_abbrev  0x00000000      0x1ae ..\obj\stm32f2xx_flash.o
+ .debug_aranges
+                0x00000000      0x108 ..\obj\stm32f2xx_flash.o
+ .debug_ranges  0x00000000       0xf8 ..\obj\stm32f2xx_flash.o
+ .debug_line    0x00000000      0x861 ..\obj\stm32f2xx_flash.o
+ .debug_str     0x00000000      0x5c6 ..\obj\stm32f2xx_flash.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_flash.o
+ .debug_frame   0x00000000      0x430 ..\obj\stm32f2xx_flash.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_flash.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_cryp_tdes.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_cryp_tdes.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_cryp_tdes.o
+ .text.CRYP_TDES_ECB
+                0x00000000      0x19c ..\obj\stm32f2xx_cryp_tdes.o
+ .text.CRYP_TDES_CBC
+                0x00000000      0x230 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_info    0x00000000      0x6e1 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_abbrev  0x00000000      0x160 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_aranges
+                0x00000000       0x28 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_ranges  0x00000000       0x18 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_line    0x00000000      0x433 ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_str     0x00000000      0x3ff ..\obj\stm32f2xx_cryp_tdes.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_cryp_tdes.o
+ .debug_frame   0x00000000       0x60 ..\obj\stm32f2xx_cryp_tdes.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_cryp_tdes.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_rtc.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_rtc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_DeInit
+                0x00000000       0xdc ..\obj\stm32f2xx_rtc.o
+ .text.RTC_Init
+                0x00000000       0xc0 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_StructInit
+                0x00000000       0x24 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_WriteProtectionCmd
+                0x00000000       0x48 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_EnterInitMode
+                0x00000000       0x70 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ExitInitMode
+                0x00000000       0x1c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_WaitForSynchro
+                0x00000000       0x74 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_RefClockCmd
+                0x00000000       0x80 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_SetTime
+                0x00000000      0x218 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TimeStructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetTime
+                0x00000000       0xbc ..\obj\stm32f2xx_rtc.o
+ .text.RTC_SetDate
+                0x00000000      0x204 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_DateStructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetDate
+                0x00000000       0xb4 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_SetAlarm
+                0x00000000      0x35c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_AlarmStructInit
+                0x00000000       0x3c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetAlarm
+                0x00000000      0x118 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_AlarmCmd
+                0x00000000       0xc4 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_WakeUpClockConfig
+                0x00000000       0x70 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_SetWakeUpCounter
+                0x00000000       0x44 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetWakeUpCounter
+                0x00000000       0x18 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_WakeUpCmd
+                0x00000000       0xa8 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_DayLightSavingConfig
+                0x00000000       0x7c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetStoreOperation
+                0x00000000       0x18 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_OutputConfig
+                0x00000000       0x88 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_CoarseCalibConfig
+                0x00000000       0x7c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_CoarseCalibCmd
+                0x00000000       0x80 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_CalibOutputCmd
+                0x00000000       0x60 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TimeStampCmd
+                0x00000000       0x90 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetTimeStamp
+                0x00000000      0x138 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TamperTriggerConfig
+                0x00000000       0x68 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TamperCmd
+                0x00000000       0x64 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_WriteBackupRegister
+                0x00000000       0xb4 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ReadBackupRegister
+                0x00000000       0xb0 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TamperPinSelection
+                0x00000000       0x48 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_TimeStampPinSelection
+                0x00000000       0x48 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_OutputTypeConfig
+                0x00000000       0x48 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ITConfig
+                0x00000000       0xb0 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetFlagStatus
+                0x00000000       0x98 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ClearFlag
+                0x00000000       0x4c ..\obj\stm32f2xx_rtc.o
+ .text.RTC_GetITStatus
+                0x00000000       0x98 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ClearITPendingBit
+                0x00000000       0x54 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_ByteToBcd2
+                0x00000000       0x38 ..\obj\stm32f2xx_rtc.o
+ .text.RTC_Bcd2ToByte
+                0x00000000       0x38 ..\obj\stm32f2xx_rtc.o
+ .debug_info    0x00000000     0x1018 ..\obj\stm32f2xx_rtc.o
+ .debug_abbrev  0x00000000      0x1c6 ..\obj\stm32f2xx_rtc.o
+ .debug_aranges
+                0x00000000      0x178 ..\obj\stm32f2xx_rtc.o
+ .debug_ranges  0x00000000      0x168 ..\obj\stm32f2xx_rtc.o
+ .debug_line    0x00000000      0xfdc ..\obj\stm32f2xx_rtc.o
+ .debug_str     0x00000000      0x951 ..\obj\stm32f2xx_rtc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_rtc.o
+ .debug_frame   0x00000000      0x660 ..\obj\stm32f2xx_rtc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_rtc.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_iwdg.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_iwdg.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_WriteAccessCmd
+                0x00000000       0x38 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_SetPrescaler
+                0x00000000       0x54 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_SetReload
+                0x00000000       0x34 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_ReloadCounter
+                0x00000000       0x18 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_Enable
+                0x00000000       0x18 ..\obj\stm32f2xx_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x00000000       0x4c ..\obj\stm32f2xx_iwdg.o
+ .debug_info    0x00000000      0x242 ..\obj\stm32f2xx_iwdg.o
+ .debug_abbrev  0x00000000      0x119 ..\obj\stm32f2xx_iwdg.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\stm32f2xx_iwdg.o
+ .debug_ranges  0x00000000       0x38 ..\obj\stm32f2xx_iwdg.o
+ .debug_line    0x00000000      0x303 ..\obj\stm32f2xx_iwdg.o
+ .debug_str     0x00000000      0x2a0 ..\obj\stm32f2xx_iwdg.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_iwdg.o
+ .debug_frame   0x00000000       0xe0 ..\obj\stm32f2xx_iwdg.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_iwdg.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_tim.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_tim.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x23c ..\obj\stm32f2xx_tim.o
+ .text.TIM_TimeBaseInit
+                0x00000000      0x1c4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x34 ..\obj\stm32f2xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000       0xec ..\obj\stm32f2xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0xb0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000       0xc8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000       0xc8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000       0xc4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000       0xc8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000      0x104 ..\obj\stm32f2xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000      0x104 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000      0x104 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0xfc ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0xf0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_Cmd  0x00000000      0x104 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000      0x268 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000      0x254 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC3Init
+                0x00000000      0x238 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC4Init
+                0x00000000      0x1a4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x44 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000      0x1a8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000       0xb0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000       0x80 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000       0x68 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000       0x68 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0xb8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x9c ..\obj\stm32f2xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0xb8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x9c ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0xb8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x9c ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0xb8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x9c ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x70 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0xb8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0xa0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000      0x12c ..\obj\stm32f2xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0xb0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ICInit
+                0x00000000      0x28c ..\obj\stm32f2xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x30 ..\obj\stm32f2xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000      0x120 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000       0xac ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000       0x7c ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000       0x64 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000       0x64 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0xf0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0xc4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0xa8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0xac ..\obj\stm32f2xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000      0x138 ..\obj\stm32f2xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x3c ..\obj\stm32f2xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x84 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x78 ..\obj\stm32f2xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x78 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ITConfig
+                0x00000000      0x128 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000       0xe8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000      0x140 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000       0xd0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_GetITStatus
+                0x00000000      0x13c ..\obj\stm32f2xx_tim.o
+ .text.TIM_ClearITPendingBit
+                0x00000000       0xd0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000      0x194 ..\obj\stm32f2xx_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0xa4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x88 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0xbc ..\obj\stm32f2xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000      0x124 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000      0x104 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0xe4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000      0x108 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0xd8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0xc0 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0xb4 ..\obj\stm32f2xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0xf8 ..\obj\stm32f2xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000      0x158 ..\obj\stm32f2xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0xbc ..\obj\stm32f2xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000       0x98 ..\obj\stm32f2xx_tim.o
+ .text.TI1_Config
+                0x00000000       0x84 ..\obj\stm32f2xx_tim.o
+ .text.TI2_Config
+                0x00000000       0x98 ..\obj\stm32f2xx_tim.o
+ .text.TI3_Config
+                0x00000000       0x90 ..\obj\stm32f2xx_tim.o
+ .text.TI4_Config
+                0x00000000       0x9c ..\obj\stm32f2xx_tim.o
+ .debug_info    0x00000000     0x20ad ..\obj\stm32f2xx_tim.o
+ .debug_abbrev  0x00000000      0x19f ..\obj\stm32f2xx_tim.o
+ .debug_aranges
+                0x00000000      0x2f8 ..\obj\stm32f2xx_tim.o
+ .debug_ranges  0x00000000      0x2e8 ..\obj\stm32f2xx_tim.o
+ .debug_line    0x00000000     0x31fe ..\obj\stm32f2xx_tim.o
+ .debug_str     0x00000000      0xe04 ..\obj\stm32f2xx_tim.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_tim.o
+ .debug_frame   0x00000000      0xd30 ..\obj\stm32f2xx_tim.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_tim.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_dbgmcu.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_dbgmcu.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x00000000       0x18 ..\obj\stm32f2xx_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x00000000       0x18 ..\obj\stm32f2xx_dbgmcu.o
+ .text.DBGMCU_Config
+                0x00000000       0x70 ..\obj\stm32f2xx_dbgmcu.o
+ .text.DBGMCU_APB1PeriphConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_dbgmcu.o
+ .text.DBGMCU_APB2PeriphConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_info    0x00000000      0x207 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_abbrev  0x00000000       0xf6 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_aranges
+                0x00000000       0x40 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_ranges  0x00000000       0x30 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_line    0x00000000      0x326 ..\obj\stm32f2xx_dbgmcu.o
+ .debug_str     0x00000000      0x274 ..\obj\stm32f2xx_dbgmcu.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_dbgmcu.o
+ .debug_frame   0x00000000       0xbc ..\obj\stm32f2xx_dbgmcu.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_dbgmcu.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_dcmi.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_dcmi.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_DeInit
+                0x00000000       0x3c ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_Init
+                0x00000000      0x164 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_StructInit
+                0x00000000       0x3c ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_CROPConfig
+                0x00000000       0x3c ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_CROPCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_SetEmbeddedSynchroCodes
+                0x00000000       0x38 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_JPEGCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_Cmd
+                0x00000000       0x50 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_CaptureCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_ReadData
+                0x00000000       0x14 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_ITConfig
+                0x00000000       0x78 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_GetFlagStatus
+                0x00000000       0xd8 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_ClearFlag
+                0x00000000       0x3c ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_GetITStatus
+                0x00000000       0x64 ..\obj\stm32f2xx_dcmi.o
+ .text.DCMI_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f2xx_dcmi.o
+ .debug_info    0x00000000      0x5c9 ..\obj\stm32f2xx_dcmi.o
+ .debug_abbrev  0x00000000      0x1d3 ..\obj\stm32f2xx_dcmi.o
+ .debug_aranges
+                0x00000000       0x90 ..\obj\stm32f2xx_dcmi.o
+ .debug_ranges  0x00000000       0x80 ..\obj\stm32f2xx_dcmi.o
+ .debug_line    0x00000000      0x63b ..\obj\stm32f2xx_dcmi.o
+ .debug_str     0x00000000      0x50d ..\obj\stm32f2xx_dcmi.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_dcmi.o
+ .debug_frame   0x00000000      0x234 ..\obj\stm32f2xx_dcmi.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_dcmi.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_hash_sha1.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_hash_sha1.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_hash_sha1.o
+ .text.HASH_SHA1
+                0x00000000      0x130 ..\obj\stm32f2xx_hash_sha1.o
+ .text.HMAC_SHA1
+                0x00000000      0x228 ..\obj\stm32f2xx_hash_sha1.o
+ .debug_info    0x00000000      0x55a ..\obj\stm32f2xx_hash_sha1.o
+ .debug_abbrev  0x00000000      0x192 ..\obj\stm32f2xx_hash_sha1.o
+ .debug_aranges
+                0x00000000       0x28 ..\obj\stm32f2xx_hash_sha1.o
+ .debug_ranges  0x00000000       0x18 ..\obj\stm32f2xx_hash_sha1.o
+ .debug_line    0x00000000      0x44d ..\obj\stm32f2xx_hash_sha1.o
+ .debug_str     0x00000000      0x31e ..\obj\stm32f2xx_hash_sha1.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_hash_sha1.o
+ .debug_frame   0x00000000       0x60 ..\obj\stm32f2xx_hash_sha1.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_hash_sha1.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_syscfg.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_syscfg.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000       0x40 ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_EXTILineConfig
+                0x00000000      0x130 ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_ETH_MediaInterfaceConfig
+                0x00000000       0x34 ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_CompensationCellCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_syscfg.o
+ .text.SYSCFG_GetCompensationCellStatus
+                0x00000000       0x30 ..\obj\stm32f2xx_syscfg.o
+ .debug_info    0x00000000      0x2a8 ..\obj\stm32f2xx_syscfg.o
+ .debug_abbrev  0x00000000      0x149 ..\obj\stm32f2xx_syscfg.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\stm32f2xx_syscfg.o
+ .debug_ranges  0x00000000       0x38 ..\obj\stm32f2xx_syscfg.o
+ .debug_line    0x00000000      0x3aa ..\obj\stm32f2xx_syscfg.o
+ .debug_str     0x00000000      0x328 ..\obj\stm32f2xx_syscfg.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_syscfg.o
+ .debug_frame   0x00000000       0xe8 ..\obj\stm32f2xx_syscfg.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_syscfg.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_cryp_aes.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_cryp_aes.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_cryp_aes.o
+ .text.CRYP_AES_ECB
+                0x00000000      0x44c ..\obj\stm32f2xx_cryp_aes.o
+ .text.CRYP_AES_CBC
+                0x00000000      0x558 ..\obj\stm32f2xx_cryp_aes.o
+ .text.CRYP_AES_CTR
+                0x00000000      0x4e8 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_info    0x00000000     0x1162 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_abbrev  0x00000000      0x1d8 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_aranges
+                0x00000000       0x30 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_ranges  0x00000000       0x20 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_line    0x00000000      0x7a7 ..\obj\stm32f2xx_cryp_aes.o
+ .debug_str     0x00000000      0x40e ..\obj\stm32f2xx_cryp_aes.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_cryp_aes.o
+ .debug_frame   0x00000000       0x88 ..\obj\stm32f2xx_cryp_aes.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_cryp_aes.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_pwr.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_pwr.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x70 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_BackupRegulatorCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_FlashPowerDownCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x90 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x3c ..\obj\stm32f2xx_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x54 ..\obj\stm32f2xx_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x3c ..\obj\stm32f2xx_pwr.o
+ .debug_info    0x00000000      0x56c ..\obj\stm32f2xx_pwr.o
+ .debug_abbrev  0x00000000      0x1c4 ..\obj\stm32f2xx_pwr.o
+ .debug_aranges
+                0x00000000       0x70 ..\obj\stm32f2xx_pwr.o
+ .debug_ranges  0x00000000       0x60 ..\obj\stm32f2xx_pwr.o
+ .debug_line    0x00000000      0x494 ..\obj\stm32f2xx_pwr.o
+ .debug_str     0x00000000      0x393 ..\obj\stm32f2xx_pwr.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_pwr.o
+ .debug_frame   0x00000000      0x190 ..\obj\stm32f2xx_pwr.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_pwr.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_can.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_can.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_can.o
+ .text.CAN_DeInit
+                0x00000000       0x68 ..\obj\stm32f2xx_can.o
+ .text.CAN_Init
+                0x00000000      0x308 ..\obj\stm32f2xx_can.o
+ .text.CAN_FilterInit
+                0x00000000      0x1f8 ..\obj\stm32f2xx_can.o
+ .text.CAN_StructInit
+                0x00000000       0x54 ..\obj\stm32f2xx_can.o
+ .text.CAN_SlaveStartBank
+                0x00000000       0x74 ..\obj\stm32f2xx_can.o
+ .text.CAN_DBGFreeze
+                0x00000000       0x70 ..\obj\stm32f2xx_can.o
+ .text.CAN_TTComModeCmd
+                0x00000000       0xd0 ..\obj\stm32f2xx_can.o
+ .text.CAN_Transmit
+                0x00000000      0x234 ..\obj\stm32f2xx_can.o
+ .text.CAN_TransmitStatus
+                0x00000000      0x108 ..\obj\stm32f2xx_can.o
+ .text.CAN_CancelTransmit
+                0x00000000       0x84 ..\obj\stm32f2xx_can.o
+ .text.CAN_Receive
+                0x00000000      0x1ac ..\obj\stm32f2xx_can.o
+ .text.CAN_FIFORelease
+                0x00000000       0x70 ..\obj\stm32f2xx_can.o
+ .text.CAN_MessagePending
+                0x00000000       0x84 ..\obj\stm32f2xx_can.o
+ .text.CAN_OperatingModeRequest
+                0x00000000      0x13c ..\obj\stm32f2xx_can.o
+ .text.CAN_Sleep
+                0x00000000       0x5c ..\obj\stm32f2xx_can.o
+ .text.CAN_WakeUp
+                0x00000000       0x78 ..\obj\stm32f2xx_can.o
+ .text.CAN_GetLastErrorCode
+                0x00000000       0x48 ..\obj\stm32f2xx_can.o
+ .text.CAN_GetReceiveErrorCounter
+                0x00000000       0x48 ..\obj\stm32f2xx_can.o
+ .text.CAN_GetLSBTransmitErrorCounter
+                0x00000000       0x48 ..\obj\stm32f2xx_can.o
+ .text.CAN_ITConfig
+                0x00000000       0xe4 ..\obj\stm32f2xx_can.o
+ .text.CAN_GetFlagStatus
+                0x00000000      0x1b0 ..\obj\stm32f2xx_can.o
+ .text.CAN_ClearFlag
+                0x00000000      0x114 ..\obj\stm32f2xx_can.o
+ .text.CAN_GetITStatus
+                0x00000000      0x224 ..\obj\stm32f2xx_can.o
+ .text.CAN_ClearITPendingBit
+                0x00000000      0x160 ..\obj\stm32f2xx_can.o
+ .text.CheckITStatus
+                0x00000000       0x30 ..\obj\stm32f2xx_can.o
+ .debug_info    0x00000000      0xccf ..\obj\stm32f2xx_can.o
+ .debug_abbrev  0x00000000      0x209 ..\obj\stm32f2xx_can.o
+ .debug_aranges
+                0x00000000       0xe0 ..\obj\stm32f2xx_can.o
+ .debug_ranges  0x00000000       0xd0 ..\obj\stm32f2xx_can.o
+ .debug_line    0x00000000      0xcf2 ..\obj\stm32f2xx_can.o
+ .debug_str     0x00000000      0x772 ..\obj\stm32f2xx_can.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_can.o
+ .debug_frame   0x00000000      0x3a8 ..\obj\stm32f2xx_can.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_can.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_cryp.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_cryp.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_DeInit
+                0x00000000       0x18 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_Init
+                0x00000000      0x158 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_StructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_KeyInit
+                0x00000000       0x58 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_KeyStructInit
+                0x00000000       0x44 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_IVInit
+                0x00000000       0x38 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_IVStructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_FIFOFlush
+                0x00000000       0x1c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_Cmd
+                0x00000000       0x50 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_DataIn
+                0x00000000       0x1c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_DataOut
+                0x00000000       0x14 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_SaveContext
+                0x00000000      0x104 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_RestoreContext
+                0x00000000       0x8c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_DMACmd
+                0x00000000       0x74 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_ITConfig
+                0x00000000       0x74 ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_GetITStatus
+                0x00000000       0x4c ..\obj\stm32f2xx_cryp.o
+ .text.CRYP_GetFlagStatus
+                0x00000000       0x84 ..\obj\stm32f2xx_cryp.o
+ .debug_info    0x00000000      0x771 ..\obj\stm32f2xx_cryp.o
+ .debug_abbrev  0x00000000      0x1de ..\obj\stm32f2xx_cryp.o
+ .debug_aranges
+                0x00000000       0xa0 ..\obj\stm32f2xx_cryp.o
+ .debug_ranges  0x00000000       0x90 ..\obj\stm32f2xx_cryp.o
+ .debug_line    0x00000000      0x5c9 ..\obj\stm32f2xx_cryp.o
+ .debug_str     0x00000000      0x5f1 ..\obj\stm32f2xx_cryp.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_cryp.o
+ .debug_frame   0x00000000      0x284 ..\obj\stm32f2xx_cryp.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_cryp.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_fsmc.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_fsmc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NORSRAMDeInit
+                0x00000000       0x78 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NORSRAMInit
+                0x00000000      0x444 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NORSRAMStructInit
+                0x00000000       0xd4 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NORSRAMCmd
+                0x00000000       0x8c ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NANDDeInit
+                0x00000000       0x74 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NANDInit
+                0x00000000      0x25c ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NANDStructInit
+                0x00000000       0x7c ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NANDCmd
+                0x00000000       0x9c ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_NANDECCCmd
+                0x00000000       0x9c ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_GetECC
+                0x00000000       0x34 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_PCCARDDeInit
+                0x00000000       0x34 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_PCCARDInit
+                0x00000000      0x1f4 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_PCCARDStructInit
+                0x00000000       0x84 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_PCCARDCmd
+                0x00000000       0x54 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_ITConfig
+                0x00000000       0xf4 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_GetFlagStatus
+                0x00000000       0xa8 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_ClearFlag
+                0x00000000       0x98 ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_GetITStatus
+                0x00000000       0xbc ..\obj\stm32f2xx_fsmc.o
+ .text.FSMC_ClearITPendingBit
+                0x00000000       0xa0 ..\obj\stm32f2xx_fsmc.o
+ .debug_info    0x00000000      0x9b3 ..\obj\stm32f2xx_fsmc.o
+ .debug_abbrev  0x00000000      0x1d8 ..\obj\stm32f2xx_fsmc.o
+ .debug_aranges
+                0x00000000       0xb0 ..\obj\stm32f2xx_fsmc.o
+ .debug_ranges  0x00000000       0xa0 ..\obj\stm32f2xx_fsmc.o
+ .debug_line    0x00000000      0xc47 ..\obj\stm32f2xx_fsmc.o
+ .debug_str     0x00000000      0x7be ..\obj\stm32f2xx_fsmc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_fsmc.o
+ .debug_frame   0x00000000      0x2d0 ..\obj\stm32f2xx_fsmc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_fsmc.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_dac.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_dac.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_dac.o
+ .text.DAC_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_dac.o
+ .text.DAC_Init
+                0x00000000      0x1f0 ..\obj\stm32f2xx_dac.o
+ .text.DAC_StructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_dac.o
+ .text.DAC_Cmd  0x00000000       0x78 ..\obj\stm32f2xx_dac.o
+ .text.DAC_SoftwareTriggerCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_dac.o
+ .text.DAC_DualSoftwareTriggerCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_dac.o
+ .text.DAC_WaveGenerationCmd
+                0x00000000       0x90 ..\obj\stm32f2xx_dac.o
+ .text.DAC_SetChannel1Data
+                0x00000000       0x68 ..\obj\stm32f2xx_dac.o
+ .text.DAC_SetChannel2Data
+                0x00000000       0x68 ..\obj\stm32f2xx_dac.o
+ .text.DAC_SetDualChannelData
+                0x00000000       0xa0 ..\obj\stm32f2xx_dac.o
+ .text.DAC_GetDataOutputValue
+                0x00000000       0x48 ..\obj\stm32f2xx_dac.o
+ .text.DAC_DMACmd
+                0x00000000       0x7c ..\obj\stm32f2xx_dac.o
+ .text.DAC_ITConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_dac.o
+ .text.DAC_GetFlagStatus
+                0x00000000       0x64 ..\obj\stm32f2xx_dac.o
+ .text.DAC_ClearFlag
+                0x00000000       0x50 ..\obj\stm32f2xx_dac.o
+ .text.DAC_GetITStatus
+                0x00000000       0x80 ..\obj\stm32f2xx_dac.o
+ .text.DAC_ClearITPendingBit
+                0x00000000       0x50 ..\obj\stm32f2xx_dac.o
+ .debug_info    0x00000000      0x708 ..\obj\stm32f2xx_dac.o
+ .debug_abbrev  0x00000000      0x1ae ..\obj\stm32f2xx_dac.o
+ .debug_aranges
+                0x00000000       0xa0 ..\obj\stm32f2xx_dac.o
+ .debug_ranges  0x00000000       0x90 ..\obj\stm32f2xx_dac.o
+ .debug_line    0x00000000      0x7b2 ..\obj\stm32f2xx_dac.o
+ .debug_str     0x00000000      0x487 ..\obj\stm32f2xx_dac.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_dac.o
+ .debug_frame   0x00000000      0x270 ..\obj\stm32f2xx_dac.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_dac.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x174 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x34 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0xcc ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000      0x124 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x90 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000      0x124 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x90 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0xa4 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0xa4 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000      0x138 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x94 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000       0x98 ..\obj\stm32f2xx_gpio.o
+ .text.GPIO_PinAFConfig
+                0x00000000      0x234 ..\obj\stm32f2xx_gpio.o
+ .text          0x00000000        0x0 ..\obj\i2cHelper.o
+ .data          0x00000000        0x0 ..\obj\i2cHelper.o
+ .bss           0x00000000        0x0 ..\obj\i2cHelper.o
+ .rodata        0x00000000        0x4 ..\obj\i2cHelper.o
+ .text.WriteByte
+                0x00000000       0x6c ..\obj\i2cHelper.o
+ .text.WriteData
+                0x00000000       0xa4 ..\obj\i2cHelper.o
+ .text.ReadByte
+                0x00000000       0x60 ..\obj\i2cHelper.o
+ .text.ReadData
+                0x00000000       0x98 ..\obj\i2cHelper.o
+ .text.BeginTransaction
+                0x00000000       0x54 ..\obj\i2cHelper.o
+ .text.EndTransaction
+                0x00000000       0x18 ..\obj\i2cHelper.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_crc.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_crc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_crc.o
+ .text.CRC_ResetDR
+                0x00000000       0x18 ..\obj\stm32f2xx_crc.o
+ .text.CRC_CalcCRC
+                0x00000000       0x20 ..\obj\stm32f2xx_crc.o
+ .text.CRC_CalcBlockCRC
+                0x00000000       0x44 ..\obj\stm32f2xx_crc.o
+ .text.CRC_GetCRC
+                0x00000000       0x14 ..\obj\stm32f2xx_crc.o
+ .text.CRC_SetIDRegister
+                0x00000000       0x20 ..\obj\stm32f2xx_crc.o
+ .text.CRC_GetIDRegister
+                0x00000000       0x18 ..\obj\stm32f2xx_crc.o
+ .debug_info    0x00000000      0x208 ..\obj\stm32f2xx_crc.o
+ .debug_abbrev  0x00000000      0x114 ..\obj\stm32f2xx_crc.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\stm32f2xx_crc.o
+ .debug_ranges  0x00000000       0x38 ..\obj\stm32f2xx_crc.o
+ .debug_line    0x00000000      0x29e ..\obj\stm32f2xx_crc.o
+ .debug_str     0x00000000      0x272 ..\obj\stm32f2xx_crc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_crc.o
+ .debug_frame   0x00000000       0xe8 ..\obj\stm32f2xx_crc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_crc.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f2xx.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f2xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f2xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf8 ..\obj\system_stm32f2xx.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x50 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x40 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x4c ..\obj\stm32f2xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x5c ..\obj\stm32f2xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0xbc ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x58 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x98 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x98 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x54 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x1c ..\obj\stm32f2xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x78 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x68 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x68 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000      0x1dc ..\obj\stm32f2xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x34 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x70 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x74 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x7c ..\obj\stm32f2xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0xcc ..\obj\stm32f2xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c ..\obj\stm32f2xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x68 ..\obj\stm32f2xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x38 ..\obj\stm32f2xx_rcc.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_adc.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_adc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_adc.o
+ .text.ADC_DeInit
+                0x00000000       0x1c ..\obj\stm32f2xx_adc.o
+ .text.ADC_Init
+                0x00000000      0x258 ..\obj\stm32f2xx_adc.o
+ .text.ADC_StructInit
+                0x00000000       0x3c ..\obj\stm32f2xx_adc.o
+ .text.ADC_CommonInit
+                0x00000000      0x1d0 ..\obj\stm32f2xx_adc.o
+ .text.ADC_CommonStructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_adc.o
+ .text.ADC_Cmd  0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0xb4 ..\obj\stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000       0x80 ..\obj\stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000       0xe4 ..\obj\stm32f2xx_adc.o
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_adc.o
+ .text.ADC_VBATCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_adc.o
+ .text.ADC_RegularChannelConfig
+                0x00000000      0x294 ..\obj\stm32f2xx_adc.o
+ .text.ADC_SoftwareStartConv
+                0x00000000       0x4c ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000       0x5c ..\obj\stm32f2xx_adc.o
+ .text.ADC_EOCOnEachRegularChannelCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_ContinuousModeCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x88 ..\obj\stm32f2xx_adc.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetConversionValue
+                0x00000000       0x48 ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetMultiModeConversionValue
+                0x00000000       0x14 ..\obj\stm32f2xx_adc.o
+ .text.ADC_DMACmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_DMARequestAfterLastTransferCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_MultiModeDMARequestAfterLastTransferCmd
+                0x00000000       0x50 ..\obj\stm32f2xx_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000      0x220 ..\obj\stm32f2xx_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x88 ..\obj\stm32f2xx_adc.o
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x9c ..\obj\stm32f2xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000       0xec ..\obj\stm32f2xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvEdgeConfig
+                0x00000000       0x8c ..\obj\stm32f2xx_adc.o
+ .text.ADC_SoftwareStartInjectedConv
+                0x00000000       0x4c ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000       0x5c ..\obj\stm32f2xx_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x7c ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x80 ..\obj\stm32f2xx_adc.o
+ .text.ADC_ITConfig
+                0x00000000       0xc8 ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetFlagStatus
+                0x00000000       0x90 ..\obj\stm32f2xx_adc.o
+ .text.ADC_ClearFlag
+                0x00000000       0x68 ..\obj\stm32f2xx_adc.o
+ .text.ADC_GetITStatus
+                0x00000000       0xbc ..\obj\stm32f2xx_adc.o
+ .text.ADC_ClearITPendingBit
+                0x00000000       0x8c ..\obj\stm32f2xx_adc.o
+ .debug_info    0x00000000      0xdfa ..\obj\stm32f2xx_adc.o
+ .debug_abbrev  0x00000000      0x1c8 ..\obj\stm32f2xx_adc.o
+ .debug_aranges
+                0x00000000      0x148 ..\obj\stm32f2xx_adc.o
+ .debug_ranges  0x00000000      0x138 ..\obj\stm32f2xx_adc.o
+ .debug_line    0x00000000     0x1251 ..\obj\stm32f2xx_adc.o
+ .debug_str     0x00000000      0x838 ..\obj\stm32f2xx_adc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_adc.o
+ .debug_frame   0x00000000      0x570 ..\obj\stm32f2xx_adc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_adc.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_exti.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_exti.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x34 ..\obj\stm32f2xx_exti.o
+ .text.EXTI_Init
+                0x00000000      0x15c ..\obj\stm32f2xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x2c ..\obj\stm32f2xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x3c ..\obj\stm32f2xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0xe4 ..\obj\stm32f2xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000       0x38 ..\obj\stm32f2xx_exti.o
+ .text.EXTI_GetITStatus
+                0x00000000       0xf8 ..\obj\stm32f2xx_exti.o
+ .text.EXTI_ClearITPendingBit
+                0x00000000       0x38 ..\obj\stm32f2xx_exti.o
+ .debug_info    0x00000000      0x3bb ..\obj\stm32f2xx_exti.o
+ .debug_abbrev  0x00000000      0x1d9 ..\obj\stm32f2xx_exti.o
+ .debug_aranges
+                0x00000000       0x58 ..\obj\stm32f2xx_exti.o
+ .debug_ranges  0x00000000       0x48 ..\obj\stm32f2xx_exti.o
+ .debug_line    0x00000000      0x533 ..\obj\stm32f2xx_exti.o
+ .debug_str     0x00000000      0x3a1 ..\obj\stm32f2xx_exti.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_exti.o
+ .debug_frame   0x00000000      0x130 ..\obj\stm32f2xx_exti.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_exti.o
+ .text          0x00000000        0x0 ..\obj\misc.o
+ .data          0x00000000        0x0 ..\obj\misc.o
+ .bss           0x00000000        0x0 ..\obj\misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x58 ..\obj\misc.o
+ .text.NVIC_Init
+                0x00000000      0x104 ..\obj\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x5c ..\obj\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x74 ..\obj\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x50 ..\obj\misc.o
+ .debug_info    0x00000000      0x597 ..\obj\misc.o
+ .debug_abbrev  0x00000000      0x15d ..\obj\misc.o
+ .debug_aranges
+                0x00000000       0x40 ..\obj\misc.o
+ .debug_ranges  0x00000000       0x30 ..\obj\misc.o
+ .debug_line    0x00000000      0x3bf ..\obj\misc.o
+ .debug_str     0x00000000      0x402 ..\obj\misc.o
+ .comment       0x00000000       0x6f ..\obj\misc.o
+ .debug_frame   0x00000000       0xc4 ..\obj\misc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\misc.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_cryp_des.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_cryp_des.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_cryp_des.o
+ .text.CRYP_DES_ECB
+                0x00000000      0x134 ..\obj\stm32f2xx_cryp_des.o
+ .text.CRYP_DES_CBC
+                0x00000000      0x180 ..\obj\stm32f2xx_cryp_des.o
+ .debug_info    0x00000000      0x562 ..\obj\stm32f2xx_cryp_des.o
+ .debug_abbrev  0x00000000      0x160 ..\obj\stm32f2xx_cryp_des.o
+ .debug_aranges
+                0x00000000       0x28 ..\obj\stm32f2xx_cryp_des.o
+ .debug_ranges  0x00000000       0x18 ..\obj\stm32f2xx_cryp_des.o
+ .debug_line    0x00000000      0x3ba ..\obj\stm32f2xx_cryp_des.o
+ .debug_str     0x00000000      0x3f9 ..\obj\stm32f2xx_cryp_des.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_cryp_des.o
+ .debug_frame   0x00000000       0x60 ..\obj\stm32f2xx_cryp_des.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_cryp_des.o
+ .text          0x00000000        0x0 ..\obj\stm32f2xx_hash_md5.o
+ .data          0x00000000        0x0 ..\obj\stm32f2xx_hash_md5.o
+ .bss           0x00000000        0x0 ..\obj\stm32f2xx_hash_md5.o
+ .text.HASH_MD5
+                0x00000000      0x11c ..\obj\stm32f2xx_hash_md5.o
+ .text.HMAC_MD5
+                0x00000000      0x210 ..\obj\stm32f2xx_hash_md5.o
+ .debug_info    0x00000000      0x4fa ..\obj\stm32f2xx_hash_md5.o
+ .debug_abbrev  0x00000000      0x192 ..\obj\stm32f2xx_hash_md5.o
+ .debug_aranges
+                0x00000000       0x28 ..\obj\stm32f2xx_hash_md5.o
+ .debug_ranges  0x00000000       0x18 ..\obj\stm32f2xx_hash_md5.o
+ .debug_line    0x00000000      0x42e ..\obj\stm32f2xx_hash_md5.o
+ .debug_str     0x00000000      0x319 ..\obj\stm32f2xx_hash_md5.o
+ .comment       0x00000000       0x6f ..\obj\stm32f2xx_hash_md5.o
+ .debug_frame   0x00000000       0x5c ..\obj\stm32f2xx_hash_md5.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f2xx_hash_md5.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000      0xccc
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x184 ..\obj\startup_stm32f207xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.InitializeControllersInterconnectionModule
+                0x08000184        0xc ..\obj\ExecutingControllersManager.o
+                0x08000184                InitializeControllersInterconnectionModule
+ .text.Reset_Handler
+                0x08000190       0x4c ..\obj\startup_stm32f207xx.o
+                0x08000190                Reset_Handler
+ .text.Default_Handler
+                0x080001dc        0x2 ..\obj\startup_stm32f207xx.o
+                0x080001dc                RTC_Alarm_IRQHandler
+                0x080001dc                HASH_RNG_IRQHandler
+                0x080001dc                EXTI2_IRQHandler
+                0x080001dc                TIM8_CC_IRQHandler
+                0x080001dc                DebugMon_Handler
+                0x080001dc                TIM1_CC_IRQHandler
+                0x080001dc                DMA2_Stream5_IRQHandler
+                0x080001dc                HardFault_Handler
+                0x080001dc                DMA1_Stream5_IRQHandler
+                0x080001dc                SysTick_Handler
+                0x080001dc                PVD_IRQHandler
+                0x080001dc                SDIO_IRQHandler
+                0x080001dc                TAMP_STAMP_IRQHandler
+                0x080001dc                PendSV_Handler
+                0x080001dc                NMI_Handler
+                0x080001dc                CAN2_RX1_IRQHandler
+                0x080001dc                EXTI3_IRQHandler
+                0x080001dc                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001dc                TIM1_UP_TIM10_IRQHandler
+                0x080001dc                TIM8_UP_TIM13_IRQHandler
+                0x080001dc                I2C3_ER_IRQHandler
+                0x080001dc                EXTI0_IRQHandler
+                0x080001dc                I2C2_EV_IRQHandler
+                0x080001dc                DMA1_Stream2_IRQHandler
+                0x080001dc                CAN1_RX0_IRQHandler
+                0x080001dc                OTG_HS_WKUP_IRQHandler
+                0x080001dc                UsageFault_Handler
+                0x080001dc                CAN2_SCE_IRQHandler
+                0x080001dc                DMA2_Stream2_IRQHandler
+                0x080001dc                SPI1_IRQHandler
+                0x080001dc                TIM6_DAC_IRQHandler
+                0x080001dc                TIM1_BRK_TIM9_IRQHandler
+                0x080001dc                DCMI_IRQHandler
+                0x080001dc                CAN2_RX0_IRQHandler
+                0x080001dc                DMA2_Stream3_IRQHandler
+                0x080001dc                USART6_IRQHandler
+                0x080001dc                USART3_IRQHandler
+                0x080001dc                CAN1_RX1_IRQHandler
+                0x080001dc                UART5_IRQHandler
+                0x080001dc                DMA2_Stream0_IRQHandler
+                0x080001dc                TIM4_IRQHandler
+                0x080001dc                I2C1_EV_IRQHandler
+                0x080001dc                DMA1_Stream6_IRQHandler
+                0x080001dc                DMA1_Stream1_IRQHandler
+                0x080001dc                UART4_IRQHandler
+                0x080001dc                TIM3_IRQHandler
+                0x080001dc                RCC_IRQHandler
+                0x080001dc                TIM8_BRK_TIM12_IRQHandler
+                0x080001dc                Default_Handler
+                0x080001dc                EXTI15_10_IRQHandler
+                0x080001dc                ADC_IRQHandler
+                0x080001dc                DMA1_Stream7_IRQHandler
+                0x080001dc                TIM7_IRQHandler
+                0x080001dc                CAN2_TX_IRQHandler
+                0x080001dc                TIM5_IRQHandler
+                0x080001dc                DMA2_Stream7_IRQHandler
+                0x080001dc                I2C3_EV_IRQHandler
+                0x080001dc                EXTI9_5_IRQHandler
+                0x080001dc                RTC_WKUP_IRQHandler
+                0x080001dc                ETH_WKUP_IRQHandler
+                0x080001dc                SPI2_IRQHandler
+                0x080001dc                OTG_HS_EP1_IN_IRQHandler
+                0x080001dc                MemManage_Handler
+                0x080001dc                DMA1_Stream0_IRQHandler
+                0x080001dc                CAN1_TX_IRQHandler
+                0x080001dc                SVC_Handler
+                0x080001dc                EXTI4_IRQHandler
+                0x080001dc                FSMC_IRQHandler
+                0x080001dc                ETH_IRQHandler
+                0x080001dc                OTG_HS_EP1_OUT_IRQHandler
+                0x080001dc                WWDG_IRQHandler
+                0x080001dc                TIM2_IRQHandler
+                0x080001dc                OTG_FS_WKUP_IRQHandler
+                0x080001dc                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001dc                OTG_HS_IRQHandler
+                0x080001dc                EXTI1_IRQHandler
+                0x080001dc                USART2_IRQHandler
+                0x080001dc                I2C2_ER_IRQHandler
+                0x080001dc                DMA2_Stream1_IRQHandler
+                0x080001dc                CAN1_SCE_IRQHandler
+                0x080001dc                FLASH_IRQHandler
+                0x080001dc                DMA2_Stream4_IRQHandler
+                0x080001dc                BusFault_Handler
+                0x080001dc                USART1_IRQHandler
+                0x080001dc                OTG_FS_IRQHandler
+                0x080001dc                SPI3_IRQHandler
+                0x080001dc                DMA1_Stream4_IRQHandler
+                0x080001dc                I2C1_ER_IRQHandler
+                0x080001dc                DMA2_Stream6_IRQHandler
+                0x080001dc                DMA1_Stream3_IRQHandler
+ *fill*         0x080001de        0x2 
+ .text.I2C_DeInit
+                0x080001e0       0x98 ..\obj\stm32f2xx_i2c.o
+                0x080001e0                I2C_DeInit
+ .text.I2C_Init
+                0x08000278      0x274 ..\obj\stm32f2xx_i2c.o
+                0x08000278                I2C_Init
+ .text.I2C_Cmd  0x080004ec       0x84 ..\obj\stm32f2xx_i2c.o
+                0x080004ec                I2C_Cmd
+ .text.I2C_AcknowledgeConfig
+                0x08000570       0x84 ..\obj\stm32f2xx_i2c.o
+                0x08000570                I2C_AcknowledgeConfig
+ .text.main     0x080005f4        0xc ..\obj\main.o
+                0x080005f4                main
+ .text.Configure
+                0x08000600       0x10 ..\obj\main.o
+                0x08000600                Configure
+ .text.GPIO_Init
+                0x08000610      0x22c ..\obj\stm32f2xx_gpio.o
+                0x08000610                GPIO_Init
+ .text.InitislizeI2C
+                0x0800083c       0x84 ..\obj\i2cHelper.o
+                0x0800083c                InitislizeI2C
+ .text.SystemInit
+                0x080008c0       0x50 ..\obj\system_stm32f2xx.o
+                0x080008c0                SystemInit
+ .text.SetSysClock
+                0x08000910      0x10c ..\obj\system_stm32f2xx.o
+ .text.RCC_GetClocksFreq
+                0x08000a1c      0x154 ..\obj\stm32f2xx_rcc.o
+                0x08000a1c                RCC_GetClocksFreq
+ .text.RCC_AHB1PeriphClockCmd
+                0x08000b70       0x74 ..\obj\stm32f2xx_rcc.o
+                0x08000b70                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000be4       0x74 ..\obj\stm32f2xx_rcc.o
+                0x08000be4                RCC_APB1PeriphClockCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x08000c58       0x74 ..\obj\stm32f2xx_rcc.o
+                0x08000c58                RCC_APB1PeriphResetCmd
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_fram e*)
+
+.glue_7         0x08000ccc        0x0
+ .glue_7        0x08000ccc        0x0 linker stubs
+
+.glue_7t        0x08000ccc        0x0
+ .glue_7t       0x08000ccc        0x0 linker stubs
+
+.vfp11_veneer   0x08000ccc        0x0
+ .vfp11_veneer  0x08000ccc        0x0 linker stubs
+
+.v4_bx          0x08000ccc        0x0
+ .v4_bx         0x08000ccc        0x0 linker stubs
+
+.iplt           0x08000ccc        0x0
+ .iplt          0x08000ccc        0x0 ..\obj\stm32f2xx_dma.o
+
+.rel.dyn        0x08000ccc        0x0
+ .rel.iplt      0x08000ccc        0x0 ..\obj\stm32f2xx_dma.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000ccc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000ccc                __exidx_end = .
+                0x08000ccc                __etext = .
+                0x08000ccc                _sidata = __etext
+
+.data           0x20000000       0x10 load address 0x08000ccc
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x10 ..\obj\stm32f2xx_rcc.o
+                0x20000010                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                0x20000010                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                0x20000010                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000010                . = ALIGN (0x4)
+                0x20000010                __data_end__ = .
+                0x20000010                _edata = __data_end__
+
+.igot.plt       0x20000010        0x0 load address 0x08000cdc
+ .igot.plt      0x20000010        0x0 ..\obj\stm32f2xx_dma.o
+
+.bss            0x20000010        0x0
+                0x20000010                . = ALIGN (0x4)
+                0x20000010                __bss_start__ = .
+                0x20000010                _sbss = __bss_start__
+ *(.bss*)
+ *(COMMON)
+                0x20000010                . = ALIGN (0x4)
+                0x20000010                __bss_end__ = .
+                0x20000010                _ebss = __bss_end__
+
+.heap           0x20000010        0x0
+                0x20000010                __end__ = .
+                0x20000010                _end = __end__
+                0x20000010                end = __end__
+ *(.heap*)
+                0x20000010                __HeapLimit = .
+
+.co_stack       0x20000010        0x0
+                0x20000010                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+                0x20020000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x20020000                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\stm32f2xx_dma.o
+LOAD ..\obj\stm32f2xx_sdio.o
+LOAD ..\obj\stm32f2xx_usart.o
+LOAD ..\obj\ExecutingControllersManager.o
+LOAD ..\obj\stm32f2xx_hash.o
+LOAD ..\obj\startup_stm32f207xx.o
+LOAD ..\obj\stm32f2xx_spi.o
+LOAD ..\obj\stm32f2xx_i2c.o
+LOAD ..\obj\stm32f2xx_rng.o
+LOAD ..\obj\stm32f2xx_wwdg.o
+LOAD ..\obj\stm32f2xx_flash.o
+LOAD ..\obj\stm32f2xx_cryp_tdes.o
+LOAD ..\obj\stm32f2xx_rtc.o
+LOAD ..\obj\stm32f2xx_iwdg.o
+LOAD ..\obj\stm32f2xx_tim.o
+LOAD ..\obj\main.o
+LOAD ..\obj\stm32f2xx_dbgmcu.o
+LOAD ..\obj\stm32f2xx_dcmi.o
+LOAD ..\obj\stm32f2xx_hash_sha1.o
+LOAD ..\obj\stm32f2xx_syscfg.o
+LOAD ..\obj\stm32f2xx_cryp_aes.o
+LOAD ..\obj\stm32f2xx_pwr.o
+LOAD ..\obj\stm32f2xx_can.o
+LOAD ..\obj\stm32f2xx_cryp.o
+LOAD ..\obj\stm32f2xx_fsmc.o
+LOAD ..\obj\stm32f2xx_dac.o
+LOAD ..\obj\stm32f2xx_gpio.o
+LOAD ..\obj\i2cHelper.o
+LOAD ..\obj\stm32f2xx_crc.o
+LOAD ..\obj\system_stm32f2xx.o
+LOAD ..\obj\stm32f2xx_rcc.o
+LOAD ..\obj\stm32f2xx_adc.o
+LOAD ..\obj\stm32f2xx_exti.o
+LOAD ..\obj\misc.o
+LOAD ..\obj\stm32f2xx_cryp_des.o
+LOAD ..\obj\stm32f2xx_hash_md5.o
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(MasterDataGathering.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x2f15
+ .debug_info    0x00000000       0xa7 ..\obj\ExecutingControllersManager.o
+ .debug_info    0x000000a7       0xef ..\obj\startup_stm32f207xx.o
+ .debug_info    0x00000196      0xca0 ..\obj\stm32f2xx_i2c.o
+ .debug_info    0x00000e36       0xce ..\obj\main.o
+ .debug_info    0x00000f04      0x6c5 ..\obj\stm32f2xx_gpio.o
+ .debug_info    0x000015c9      0x6fc ..\obj\i2cHelper.o
+ .debug_info    0x00001cc5      0x3f2 ..\obj\system_stm32f2xx.o
+ .debug_info    0x000020b7      0xe5e ..\obj\stm32f2xx_rcc.o
+
+.debug_abbrev   0x00000000      0x903
+ .debug_abbrev  0x00000000       0x63 ..\obj\ExecutingControllersManager.o
+ .debug_abbrev  0x00000063       0x12 ..\obj\startup_stm32f207xx.o
+ .debug_abbrev  0x00000075      0x196 ..\obj\stm32f2xx_i2c.o
+ .debug_abbrev  0x0000020b       0x95 ..\obj\main.o
+ .debug_abbrev  0x000002a0      0x1bd ..\obj\stm32f2xx_gpio.o
+ .debug_abbrev  0x0000045d      0x175 ..\obj\i2cHelper.o
+ .debug_abbrev  0x000005d2      0x138 ..\obj\system_stm32f2xx.o
+ .debug_abbrev  0x0000070a      0x1f9 ..\obj\stm32f2xx_rcc.o
+
+.debug_aranges  0x00000000      0x410
+ .debug_aranges
+                0x00000000       0x20 ..\obj\ExecutingControllersManager.o
+ .debug_aranges
+                0x00000020       0x28 ..\obj\startup_stm32f207xx.o
+ .debug_aranges
+                0x00000048      0x120 ..\obj\stm32f2xx_i2c.o
+ .debug_aranges
+                0x00000168       0x28 ..\obj\main.o
+ .debug_aranges
+                0x00000190       0x88 ..\obj\stm32f2xx_gpio.o
+ .debug_aranges
+                0x00000218       0x50 ..\obj\i2cHelper.o
+ .debug_aranges
+                0x00000268       0x30 ..\obj\system_stm32f2xx.o
+ .debug_aranges
+                0x00000298      0x178 ..\obj\stm32f2xx_rcc.o
+
+.debug_ranges   0x00000000      0x3b0
+ .debug_ranges  0x00000000       0x10 ..\obj\ExecutingControllersManager.o
+ .debug_ranges  0x00000010       0x20 ..\obj\startup_stm32f207xx.o
+ .debug_ranges  0x00000030      0x110 ..\obj\stm32f2xx_i2c.o
+ .debug_ranges  0x00000140       0x18 ..\obj\main.o
+ .debug_ranges  0x00000158       0x78 ..\obj\stm32f2xx_gpio.o
+ .debug_ranges  0x000001d0       0x58 ..\obj\i2cHelper.o
+ .debug_ranges  0x00000228       0x20 ..\obj\system_stm32f2xx.o
+ .debug_ranges  0x00000248      0x168 ..\obj\stm32f2xx_rcc.o
+
+.debug_line     0x00000000     0x3296
+ .debug_line    0x00000000      0x1cf ..\obj\ExecutingControllersManager.o
+ .debug_line    0x000001cf       0xc6 ..\obj\startup_stm32f207xx.o
+ .debug_line    0x00000295      0xe98 ..\obj\stm32f2xx_i2c.o
+ .debug_line    0x0000112d      0x1b7 ..\obj\main.o
+ .debug_line    0x000012e4      0xa80 ..\obj\stm32f2xx_gpio.o
+ .debug_line    0x00001d64      0x3c9 ..\obj\i2cHelper.o
+ .debug_line    0x0000212d      0x298 ..\obj\system_stm32f2xx.o
+ .debug_line    0x000023c5      0xed1 ..\obj\stm32f2xx_rcc.o
+
+.debug_str      0x00000000     0x1275
+ .debug_str     0x00000000      0x190 ..\obj\ExecutingControllersManager.o
+                                0x1cc (size before relaxing)
+ .debug_str     0x00000190      0x529 ..\obj\stm32f2xx_i2c.o
+                                0x699 (size before relaxing)
+ .debug_str     0x000006b9       0x5a ..\obj\main.o
+                                0x182 (size before relaxing)
+ .debug_str     0x00000713      0x348 ..\obj\stm32f2xx_gpio.o
+                                0x4d0 (size before relaxing)
+ .debug_str     0x00000a5b      0x15d ..\obj\i2cHelper.o
+                                0x53e (size before relaxing)
+ .debug_str     0x00000bb8      0x199 ..\obj\system_stm32f2xx.o
+                                0x35f (size before relaxing)
+ .debug_str     0x00000d51      0x524 ..\obj\stm32f2xx_rcc.o
+                                0x884 (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ..\obj\ExecutingControllersManager.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ..\obj\stm32f2xx_i2c.o
+ .comment       0x0000006e       0x6f ..\obj\main.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f2xx_gpio.o
+ .comment       0x0000006e       0x6f ..\obj\i2cHelper.o
+ .comment       0x0000006e       0x6f ..\obj\system_stm32f2xx.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f2xx_rcc.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\ExecutingControllersManager.o
+ .ARM.attributes
+                0x00000033       0x21 ..\obj\startup_stm32f207xx.o
+ .ARM.attributes
+                0x00000054       0x33 ..\obj\stm32f2xx_i2c.o
+ .ARM.attributes
+                0x00000087       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x000000ba       0x33 ..\obj\stm32f2xx_gpio.o
+ .ARM.attributes
+                0x000000ed       0x33 ..\obj\i2cHelper.o
+ .ARM.attributes
+                0x00000120       0x33 ..\obj\system_stm32f2xx.o
+ .ARM.attributes
+                0x00000153       0x33 ..\obj\stm32f2xx_rcc.o
+
+.debug_frame    0x00000000      0xf04
+ .debug_frame   0x00000000       0x2c ..\obj\ExecutingControllersManager.o
+ .debug_frame   0x0000002c      0x4bc ..\obj\stm32f2xx_i2c.o
+ .debug_frame   0x000004e8       0x48 ..\obj\main.o
+ .debug_frame   0x00000530      0x210 ..\obj\stm32f2xx_gpio.o
+ .debug_frame   0x00000740      0x110 ..\obj\i2cHelper.o
+ .debug_frame   0x00000850       0x7c ..\obj\system_stm32f2xx.o
+ .debug_frame   0x000008cc      0x638 ..\obj\stm32f2xx_rcc.o
